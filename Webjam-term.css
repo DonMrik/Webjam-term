@@ -1,0 +1,97 @@
+html{
+    
+   
+  
+    background-color:rgba(0,5,25,0.6);
+background-image: url(fondsite.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.f1{
+    position: relative;
+    border-color:#000519; 
+    width:43%;
+    height:80%;
+    margin-top:10%;
+    margin-left: 4%;
+   
+}
+.f2{
+    position: relative;
+    border-color:#000519; 
+    width:43%;
+height:80%;
+margin-top:10%;
+    margin-left: 5%;
+    
+}
+
+
+.cellule{
+    border-color:#000519;
+    width:30%;
+    height:30px;
+margin-left :25%;
+    margin-top: 5%;
+
+
+}
+form{
+position:absolute;
+    z-index: 1;
+    width:100%;
+}
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes doll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+#CAL1{
+
+
+    left: 61.3%;
+    animation: roll 12s ;
+    top:66px;
+}
+
+#CAL3{
+
+    left: 72.8%;
+    animation: roll 12s ;
+    top:40px;
+    
+}
+
+#CAL2{
+    
+    
+    
+    left: 66.5%;
+    animation: doll 12s ;
+    top:5px;
+    
+}
+
+svg{
+    position: fixed;
+    
+}
+
+
+
+
+
