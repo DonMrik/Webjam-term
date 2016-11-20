@@ -9,7 +9,7 @@
   
   <form>
   
-    <input autofocus type="text" name="search" class="cellule">
+    <input autofocus type="text" name="search" class="cellule"  placeholder="Un mot peut en cacher d'autres!">
   </form>
      <?php
         if(isset($_GET['search'])){

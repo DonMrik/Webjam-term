@@ -6,11 +6,17 @@ html{
 background-image: url(fondsite.jpg);
     background-size: 1650px;
     background-position: center;
+    
 
 }
 body{
     margin:0px;
-    
+ 
+}
+input{
+    font-family: monospace, sans-serif;
+    font-size: 20px;
+    padding:0 8px;
 }
 
 .f1{
